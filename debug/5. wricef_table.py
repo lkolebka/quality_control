@@ -39,7 +39,7 @@ def print_table(table):
     return "\n".join(table_content)
 
 # Path to the directory containing the Word documents
-doc_directory = r"C:\Users\lazare.kolebka\OneDrive - Accenture\Desktop\Yara"
+doc_directory = r"C:\Users\lazare.kolebka\OneDrive - Accenture\Documents\Dev\Yara"
 
 # Iterate over all Word documents in the directory
 for filename in os.listdir(doc_directory):
