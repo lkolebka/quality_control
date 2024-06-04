@@ -36,7 +36,7 @@ python main.py
 ```
 
 ### 2. Viewing the Report
-After running the script, an Excel file named document_quality_report.xlsx will be generated in the specified directory. This file contains detailed information on the quality checks performed on each document.
+After running the script, an Excel file named document_quality_report.xlsx will be generated in the /Output directory. This file contains detailed information on the quality checks performed on each document.
 
 ### 3. Debug
 In the [debug folder]([url](https://github.com/lkolebka/quality_control/tree/master/debug)), there are multipes sub-script you can exectute to see the execution of the different features. 
