@@ -5,6 +5,7 @@ PDD Doc 3.docx
 
 # Ignore generated Excel report
 document_quality_report.xlsx
+document_quality_report
 
 # Ignore Template folder
 Template/
