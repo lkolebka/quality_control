@@ -34,7 +34,7 @@ def validate_approver_table(approver_table):
         return False
 
 # Path to the directory containing the Word documents
-doc_directory = r"C:\Users\lazare.kolebka\OneDrive - Accenture\Desktop\Yara"
+doc_directory = r"C:\Users\lazare.kolebka\OneDrive - Accenture\Documents\Dev\Yara"
 
 # Parameters for finding the reviewer table
 start_text = "Reviewers"

@@ -205,7 +205,7 @@ def check_document_quality(doc_path):
 
 def main():
     # Path to the directory containing the Word documents
-    doc_directory = r"C:\Users\lazare.kolebka\OneDrive - Accenture\Desktop\Yara"
+    doc_directory = r"C:\Users\lazare.kolebka\OneDrive - Accenture\Documents\Dev\Yara"
 
     # List to hold the quality check results for all documents
     results = []
@@ -222,7 +222,7 @@ def main():
     df = pd.DataFrame(results)
 
     # Save results to an Excel file
-    output_path = r"C:\Users\lazare.kolebka\OneDrive - Accenture\Desktop\Yara\document_quality_report.xlsx"
+    output_path = r"C:\Users\lazare.kolebka\OneDrive - Accenture\Documents\Dev\Yara\document_quality_report.xlsx"
     try:
         with pd.ExcelWriter(output_path, engine='openpyxl') as writer:
             df.to_excel(writer, index=False)
