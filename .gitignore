@@ -7,8 +7,9 @@ PDD Doc 3.docx
 document_quality_report.xlsx
 document_quality_report
 
-# Ignore Template folder
+# Ignore Template & Ouptut folder
 Template/
+Ouptut
 
 # Ignore virtual environment
 venv/

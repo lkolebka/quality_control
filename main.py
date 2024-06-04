@@ -222,7 +222,7 @@ def main():
     df = pd.DataFrame(results)
 
     # Save results to an Excel file
-    output_path = r"C:\Users\lazare.kolebka\OneDrive - Accenture\Documents\Dev\Yara\document_quality_report.xlsx"
+    output_path = r"C:\Users\lazare.kolebka\OneDrive - Accenture\Documents\Dev\Yara\Output\document_quality_report.xlsx"
     try:
         with pd.ExcelWriter(output_path, engine='openpyxl') as writer:
             df.to_excel(writer, index=False)
